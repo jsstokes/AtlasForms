@@ -24,7 +24,7 @@ It differs from a 4GL in having no proprietery coding language - it is instead a
 
 
 
-Change qbyf0 to your own appid throught this repo and import.
+Change qbyfc to your own appid throught this repo and import.
 
 
 ## Known BUGS to fix
