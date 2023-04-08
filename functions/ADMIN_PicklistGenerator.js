@@ -87,6 +87,7 @@ exports = async function () {
 
   const picklists = []
   const schema = await context.functions.execute('getDocTypeSchemaInfo', { namespace: `${database}.${collection}` })
+  var genfunctions = []
   if (schema.ok === true) {
     flattenSchema(schema.docTypeSchemaInfo, '', picklists)
 
@@ -132,5 +133,5 @@ async function generatePicklist (database, collection, fieldname) {
     }
   }
 
-  return true
-};
+  return true;
+}

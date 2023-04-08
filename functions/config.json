@@ -6,15 +6,35 @@
         "disable_arg_logs": true
     },
     {
-        "name": "getListOfDoctypes",
+        "name": "getPicklists",
         "private": false,
         "run_as_system": true,
         "disable_arg_logs": true
     },
     {
-        "name": "ADMIN_PicklistGenerator",
+        "name": "sample_custom_verify",
         "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "newUserSignup",
+        "private": true
+    },
+    {
+        "name": "commitEdit",
+        "private": false,
         "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "importDocType",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "utility_functions",
+        "private": false,
         "disable_arg_logs": true
     },
     {
@@ -24,7 +44,7 @@
         "disable_arg_logs": true
     },
     {
-        "name": "getPicklists",
+        "name": "queryDocType",
         "private": false,
         "run_as_system": true,
         "disable_arg_logs": true
@@ -36,7 +56,7 @@
         "disable_arg_logs": true
     },
     {
-        "name": "lockDocument",
+        "name": "getListOfDoctypes",
         "private": false,
         "run_as_system": true,
         "disable_arg_logs": true
@@ -45,22 +65,6 @@
         "name": "getDocTypeSchemaInfo",
         "private": false,
         "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "verify_EDIT___atlasforms_doctypes",
-        "private": true,
-        "run_as_system": true
-    },
-    {
-        "name": "internalCommitEdit",
-        "private": true,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "utility_functions",
-        "private": false,
         "disable_arg_logs": true
     },
     {
@@ -74,30 +78,26 @@
         "run_as_system": true
     },
     {
-        "name": "newUserSignup",
-        "private": true
-    },
-    {
-        "name": "queryDocType",
+        "name": "lockDocument",
         "private": false,
         "run_as_system": true,
         "disable_arg_logs": true
     },
     {
-        "name": "importDocType",
-        "private": false,
+        "name": "ADMIN_PicklistGenerator",
+        "private": true,
         "run_as_system": true,
         "disable_arg_logs": true
     },
     {
-        "name": "sample_custom_verify",
+        "name": "internalCommitEdit",
+        "private": true,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "verify_EDIT___atlasforms_doctypes",
         "private": true,
         "run_as_system": true
-    },
-    {
-        "name": "commitEdit",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
     }
 ]
